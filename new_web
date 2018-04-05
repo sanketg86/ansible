@@ -1,2 +1,2 @@
 [new_Web] 
-10.30.1.240 ansible_host=10.30.1.240 hostname=ansible-web  vcenter=upmsvcit01.rageframeworks.com gateway=10.30.1.250
+xxx.xxx.xxx.xxx ansible_host=xxx.xxx.xxx.xxx hostname=ansible-web  vcenter=vcenter.company.com gateway=xxx.xxx.xxx.xxx

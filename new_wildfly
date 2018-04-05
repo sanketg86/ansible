@@ -1,2 +1,2 @@
 [new_wildfly] 
-10.30.5.240 ansible_host=10.30.5.240 hostname=ansible-test  vcenter=upmsvcit01.rageframeworks.com serviceuser1=rage gateway=10.30.5.250
+xxx.xxx.xxx.xxx ansible_host=xxx.xxx.xxx.xxx hostname=ansible-test  vcenter=vcenter.company.com serviceuser1=sanket gateway=xxx.xxx.xxx.xxx
