@@ -1,0 +1,8 @@
+---
+- name: Web Server Setup
+  hosts: new_Web
+  gather_facts: False
+  strategy: free
+  roles:
+    - common
+    - web

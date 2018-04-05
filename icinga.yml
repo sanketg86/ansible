@@ -1,0 +1,7 @@
+---
+
+- name: Configure Newly Created Server in ICINGA
+  hosts: ICINGA_Server
+  roles:
+    - icinga
+

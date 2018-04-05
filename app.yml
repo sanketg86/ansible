@@ -1,0 +1,23 @@
+---
+- name: Tomcat Setup
+  hosts: new_tomcat
+  gather_facts: False
+  strategy: free
+  vars:
+    serviceuser: "{{ serviceuser1 }}"
+  roles:
+    - common
+    - users
+    - tomcat
+    - java
+
+
+- name: Wildfly Setup
+  hosts: new_wildfly
+  vars:
+    serviceuser: "{{ serviceuser1 }}"
+  roles:
+    - common
+    - users
+    - wildfly
+    - java

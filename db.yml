@@ -1,0 +1,7 @@
+---
+- name: Setup Oracle
+  hosts: new_DB
+  gather_facts: False
+  roles:
+    - common
+    - oracle

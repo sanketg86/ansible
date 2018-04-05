@@ -1,0 +1,123 @@
+# This is the default ansible 'hosts' file.
+#
+# It should live in /etc/ansible/hosts
+#
+#   - Comments begin with the '#' character
+#   - Blank lines are ignored
+#   - Groups of hosts are delimited by [header] elements
+#   - You can enter hostnames or ip addresses
+#   - A hostname/ip can be a member of multiple groups
+
+# Ex 1: Ungrouped hosts, specify before any group headers.
+
+## green.example.com
+## blue.example.com
+## 192.168.100.1
+## 192.168.100.10
+
+# Ex 2: A collection of hosts belonging to the 'webservers' group
+
+## [webservers]
+## alpha.example.org
+## beta.example.org
+## 192.168.1.100
+## 192.168.1.110
+
+# If you have multiple hosts following a pattern you can specify
+# them like this:
+
+## www[001:006].example.com
+
+# Ex 3: A collection of database servers in the 'dbservers' group
+
+## [dbservers]
+## 
+## db01.intranet.mydomain.net
+## db02.intranet.mydomain.net
+## 10.25.1.56
+## 10.25.1.57
+
+# Here's another example of host ranges, this time there are no
+# leading 0s:
+
+## db-[99:101]-node.example.com
+
+#[BAML-UAT]
+#172.18.4.19
+#172.18.4.16
+#172.18.4.51
+#172.18.4.52
+#172.18.4.53
+#172.18.4.14
+#172.18.4.55
+#
+#[BAML-PROD]
+#172.18.2.149
+#172.18.2.146
+#172.18.2.20
+#172.18.2.17
+#172.18.2.172
+#172.18.2.25
+#172.18.2.26
+#172.18.2.27
+#172.18.2.173
+#172.18.2.28
+#172.18.2.148
+#172.18.2.30
+#172.18.2.170
+#172.18.2.35
+#172.18.2.171
+#172.18.2.31
+#172.18.2.147
+#172.18.2.151
+#172.18.2.19
+#
+#
+#[MS-PROD]
+#10.30.8.52
+#10.30.8.53
+#10.30.8.54
+#10.30.8.55
+#10.30.8.50
+#10.30.8.51
+#10.30.8.56
+#10.30.8.57
+#10.30.7.20
+#10.30.7.21
+#
+#[MS-UAT]
+#10.30.5.31
+#10.30.5.36
+#
+
+[tomcat]
+#172.20.13.101
+[webservers]
+192.168.102.10
+192.168.100.49
+192.168.100.46
+192.168.100.43
+192.168.100.41
+192.168.100.37
+192.168.100.33
+192.168.100.26
+192.168.100.175
+192.168.100.22
+192.168.100.172
+192.168.100.169
+192.168.100.160
+192.168.100.16
+192.168.100.156
+192.168.100.153
+192.168.100.147
+192.168.100.146
+192.168.100.137
+172.18.18.11
+172.25.2.56
+172.25.2.230
+10.30.7.21
+10.30.7.20
+10.30.4.11
+10.50.12.150
+172.20.1.38
+172.20.1.61

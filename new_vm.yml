@@ -1,0 +1,8 @@
+---
+- name: Create new VM
+  hosts: localhost
+  vars_files:
+    - /etc/ansible/roles/create_vm/vars/credential.yml
+  roles:
+    - create_vm
+
