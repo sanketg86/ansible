@@ -1,6 +1,6 @@
 # ansible
 - Ansible Setup on xxx.xxx.xxx.xxx.
-- Will setup below servers,
+- Create cut the VM from template and Setup as below requirment. 
 
                 - Web Server
                                 - Apache Configuration
